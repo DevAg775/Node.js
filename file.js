@@ -7,7 +7,6 @@ const fs = require("fs");
 // fs.writeFileSync("./contact.txt","Jhon +910000000000 , Tom +912222222222")
 
 
-
 //Async = Non blocking Request
 // fs.writeFile("./test.txt","HEy world",(error)=>{});
 
@@ -33,10 +32,10 @@ const fs = require("fs");
 
 
 //tocpy files
-fs.cpSync("./test.txt","./copy.txt")
+// fs.cpSync("./test.txt","./copy.txt")
 
 //to delte files
-fs.unlinkSync("./copy.txt")
+// fs.unlinkSync("./copy.txt")
 
 //to get status of file
 console.log(fs.statSync("./test.txt"))
